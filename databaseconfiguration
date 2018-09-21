@@ -1,0 +1,8 @@
+One of the main backbone of this system is database and here how to configure the database is explained. And the database used in this project is
+MySQL. First create a database in any name as you want but i have created in the name of "rentalcar". In database.php change the user name
+and password according to your requirement. In order to create the tables follow 2 screenshots of the database that is uploaded and create
+table accordingly. In this project, after creating all the tables just add one row to the userinfo table where usertype will be superadministraor.
+Superadministrator is the master of the system. He/She can appoint other administrator or driver. so follow this syntax in MySQL and
+insert one row in the userinfo table. Here for example purpose i am assigning random names. The query to insert a superadministrator in the
+database is "insert into userinfo values('name','password','email',phoneno,'address',pincode,'city','state','superadministrator');"
+That's it. Ready to GO. For any problem feel free to ask.
