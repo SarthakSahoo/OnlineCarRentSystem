@@ -1,0 +1,166 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url("5.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	min-width:440px;
+}
+heade{
+	width:100%;
+	height:10%;
+	background-color:black;
+	opacity:0.5;
+}
+nav{
+	width:360px;
+	height:460px;
+	border-radius:15%;
+	background-color:black;
+	opacity:0.5;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin:-230px 0 0 -180px;
+opacity:0.7;
+}
+nav:hover{
+	
+}
+input{
+	border:3px solid white;	
+	margin-left:%;
+	text-align:center;
+	margin-top:150px ;
+	height:7%;
+	width:75%;
+	font-family:"Times New Roman", Times, serif;
+	background-color:black;
+	color:white;
+	font-size:27;
+	border-top:none;
+border-left:none;
+border-right:none;
+float:left;
+}
+ #login{
+	 background-color:black;
+	 border-radius:50%;
+	 cursor:pointer;
+	 height:100px;
+	width:100px;
+	margin-top:30px;
+	margin-left:50px;
+	border:1px solid #ffffff;
+	transition:1s;
+}
+#login:hover{
+	background-color:green;
+ transform: scale(1.5) rotate(360deg);
+	}
+img{
+	float:left;
+	margin-top:130px;
+	
+}
+img #k{
+	float:left;
+	margin-top:0px;
+	margin-left:0;
+	display:inline;
+}
+form{
+	border:;
+	height:460px;
+	border-radius:15%;
+}
+div{
+	position:fixed;
+	
+	opacity:0.5;
+
+	
+		top:77px;
+	left:0;
+	width:288px;
+	margin:-100% 0 0 0 ;
+	height:100%;
+	background-color: #e1e1e1 ;
+	transition: 2s;
+	
+}
+div:hover{
+	height:100%;
+}
+#bt{
+	background-image:url("6.png");
+	background-repeat:no-repeat;
+	
+	background-attachment:fixed;
+	min-width:288px;
+	cursor:pointer;
+	font-size:0;
+	
+	width:197px;
+	margin-top:0;
+border:none;
+	opacity:0.5;
+
+	height:77px;
+}
+#bt:hover{
+	opacity:1;
+	
+}
+#bt:focus + div,#bt:hover+ div,div:hover{  /*#a:focus + div,#a:hover + div     condition+ ly yt7a9e9 a3lih l condition*/
+	margin:0;
+	background-color: black;
+	opacity:0.7;
+	
+} 
+#p{
+	border:3px solid white;	
+	margin-left:%;
+	text-align:center;
+	margin-top:70px ;
+	height:7%;
+	width:100%;
+	font-family:"Times New Roman", Times, serif;
+	background-color:black;
+	color:white;
+	font-size:27;
+	border-top:none;
+border-left:none;
+border-right:none;
+float:left;
+}
+#bp{
+	border:2px solid white ;
+	margin-top:70px;
+	width:100%;
+border-left:none;
+border-right:none;
+transition:1s;
+background-color:green;
+cursor:pointer;
+}
+#bp:hover{
+	
+	
+}
+#bp1{
+	border:2px solid white ;
+	margin-top:20px;
+	width:100%;
+border-left:none;
+border-right:none;
+transition:1s;
+cursor:pointer;
+	background-color:red;
+}
+#bp1:hover{
+	
+}
